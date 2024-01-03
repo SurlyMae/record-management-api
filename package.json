@@ -1,0 +1,23 @@
+{
+  "name": "record-management-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "@prisma/client": "5.7.1",
+    "express": "4.18.2"
+    },
+    "devDependencies": {
+    "prisma": "5.7.1"
+    },
+    "prisma": {
+    "seed": "node prisma/seed.js"
+    }
+}
