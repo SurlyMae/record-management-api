@@ -3,13 +3,13 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgres"
   url      = env("DATABASE_URL")
 }
 
 model User {
   id       Int    @id @default(autoincrement())
-  email    String @unique
+  userName String @unique
   password String
 }
 
@@ -19,5 +19,5 @@ model Employee {
   firstName        String?
   lastName         String?
   driverLicense    String?
-  driverLicenseExp DateTime?
+  driverLicenseExp DateTime? @default(now())
 }
