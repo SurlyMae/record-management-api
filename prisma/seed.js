@@ -15,10 +15,16 @@ const userData = [
 
 const employeeData = [
   {
-    email: "employeeemail@company.com",
-    firstName: "firstName",
-    lastName: "lastName",
+    email: "johnsmith@company.com",
+    firstName: "John",
+    lastName: "Smith",
     driverLicense: "44456765WY",
+  },
+  {
+    email: "laurafield@company.com",
+    firstName: "Laura",
+    lastName: "Field",
+    driverLicense: "UT345654332",
   },
 ];
 
